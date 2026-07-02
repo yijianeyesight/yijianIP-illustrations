@@ -8,7 +8,7 @@
 
 ## 这个仓库是什么
 
-Xiaoyi Illustrations 是一个深度定制的 Codex Skill，方法论来自Ian Xiaohei Illustrations
+Xiaoyi Illustrations 是一个深度定制的 Codex Skill，方法来自Ian Xiaohei Illustrations
 
 用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档、方法论内容、社会观察、经济分析、AI 科普、自媒体分析和商业拆解生成正文配图。
 
