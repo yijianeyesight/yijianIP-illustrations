@@ -28,7 +28,7 @@ Use only a small number of short handwritten Chinese annotations. Keep labels br
 
 One image should explain only one core judgment, structure, state, or metaphor. Keep the composition clean and simple, with plenty of white space. Do not turn the image into a formal infographic, a PPT slide, a dense flowchart, or a polished commercial character poster. Do not add excessive text. Do not use realistic UI screenshots. Do not make Xiaoyi cute or decorative. Xiaoyi must remain the action-taking analytical subject of the image.
 
-For video-editing flexibility, if multiple subjects have only a weak conceptual relationship, keep them fully separated as independent cut-out elements. Do not force connector lines, shared backing plates, touching edges, shadows, or decorative overlaps. Preserve necessary physical or causal connections only when the scene genuinely requires them. Each separable element should have a complete visible silhouette.
+Preserve strong narrative interaction between subjects through gaze, orientation, attraction, pushing, pulling, compression, inspection, spatial tension, meaningful contact, or a clear causal action. Never arrange related subjects as disconnected stickers. For video-editing flexibility, keep major cut-out silhouettes reasonably complete where possible. Remove only weak decorative connector lines that add no real meaning; express the relationship through composition and action instead. Meaningful contact, overlap, or a removable action connector is allowed when needed. If editability conflicts with storytelling, prioritize a readable interaction.
 
 ### Negative Constraints
 
