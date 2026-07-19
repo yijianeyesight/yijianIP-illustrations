@@ -28,6 +28,8 @@ Use only a small number of short handwritten Chinese annotations. Keep labels br
 
 One image should explain only one core judgment, structure, state, or metaphor. Keep the composition clean and simple, with plenty of white space. Do not turn the image into a formal infographic, a PPT slide, a dense flowchart, or a polished commercial character poster. Do not add excessive text. Do not use realistic UI screenshots. Do not make Xiaoyi cute or decorative. Xiaoyi must remain the action-taking analytical subject of the image.
 
+For video-editing flexibility, if multiple subjects have only a weak conceptual relationship, keep them fully separated as independent cut-out elements. Do not force connector lines, shared backing plates, touching edges, shadows, or decorative overlaps. Preserve necessary physical or causal connections only when the scene genuinely requires them. Each separable element should have a complete visible silhouette.
+
 ### Negative Constraints
 
 Avoid cute expressions, chibi proportions, mascot styling, anime-style sweetness, exaggerated comedy faces, polished vector illustration, realistic portrait rendering, heavy shading, complex gradients, superhero chest emblems, and overly commercial branding aesthetics. Avoid making the character too cheerful, too soft, too childish, or too emotionally expressive.
