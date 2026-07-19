@@ -81,10 +81,10 @@ Xiaoyi Illustrations 是一个深度定制的 Codex Skill，方法来自Ian Xiao
 
 小逸角色参考图：
 
-- `assets/xiaoyi-reference/xiaoyi-turnaround.png`：三视图参考，包含正面、侧面、背面和头像近景。
-- `assets/xiaoyi-reference/xiaoyi-modes.png`：模式参考，包含批注模式、质问模式、录音模式、分析模式、辩证模式。
+- `assets/xiaoyi-reference/xiaoyi-turnaround.png`：新版透明三视图，包含正面、侧面、背面和头像近景。
+- `assets/xiaoyi-reference/xiaoyi-modes.png`：新版透明动作库，包含审视、质疑、批注、分析和录音/收集。
 
-示例图片只用于校准线条密度、留白、颜色克制和角色参与方式，不是构图模板。使用时应该从当前文章重新发明隐喻，不要照抄旧案例的物件和构图。
+Skill 内只保留一张已确认的新风格透明样图 `assets/examples/01-content-overload-transparent.png`，用于校准稚拙线条、报纸剪口、15% 轻彩和角色参与方式，不是构图模板。旧白底案例已移出安装资产，避免模型被旧视觉锚点拉回。
 
 ---
 
@@ -174,6 +174,7 @@ Use $xiaoyi-illustrations 帮我编辑这张图，去掉左上角的“流程图
 │       └── xiaoyi-modes.png
 ├── examples/
 │   ├── images/
+│   │   └── 01-content-overload-transparent.png
 │   └── prompts.md
 └── xiaoyi-illustrations/
     ├── SKILL.md

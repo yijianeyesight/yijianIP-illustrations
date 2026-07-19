@@ -46,7 +46,7 @@
 - 真实 UI 截图或科技感界面。
 - 中文错字严重或标注不可读。
 - 画面太死板，没有观察型冷幽默。
-- 和 `assets/examples/` 里的旧案例构图过于相似。
+- 和 `assets/examples/01-content-overload-transparent.png` 的构图过于相似。
 
 ## 迭代方法
 

@@ -4,9 +4,9 @@
 
 当前全局使用最新版形象：
 
-- `assets/xiaoyi-reference/xiaoyi-turnaround.png`：最新版三视图，来自 `C:\Users\thepa\Documents\个人虚拟形象\图片` 中 2026-07-02 19:22 的三视图。
-- `assets/xiaoyi-reference/xiaoyi-modes.png`：最新版动作/模式图，来自 `C:\Users\thepa\Documents\个人虚拟形象\图片` 中 2026-07-02 19:22 的动作库图。
-- `xiaoyi-illustrations/assets/xiaoyi-reference/` 内同步保留同名文件，安装 Skill 时一起携带。
+- `assets/xiaoyi-reference/xiaoyi-turnaround.png`：2026-07-19 新版透明三视图，包含正面、侧面、背面和头像近景；使用成熟人物比例、稚拙手绘线和报纸剪纸白边。
+- `assets/xiaoyi-reference/xiaoyi-modes.png`：2026-07-19 新版透明动作库，包含审视、质疑、批注、分析和录音/收集五种动作。
+- `xiaoyi-illustrations/assets/xiaoyi-reference/` 内同步保留同名透明 PNG，安装 Skill 时一起携带。
 
 ## 1. 固定角色描述
 
