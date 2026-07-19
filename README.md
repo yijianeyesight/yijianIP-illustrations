@@ -1,8 +1,8 @@
 # Xiaoyi Illustrations
 
-> 把中文内容里的关键判断、结构漏洞、利益关系和认知动作，变成一张张白底、手绘、冷幽默但清爽的正文配图。
+> 把中文内容里的关键判断、结构漏洞、利益关系和认知动作，变成一张张稚拙手绘、报纸剪纸、冷幽默但成熟的透明正文配图。
 >
-> 16:9 横版 | 小逸 IP | 纯白手绘 | 黑白灰为主 | 少量红橙蓝中文批注 | Codex Skill
+> 16:9 横版 | 小逸 IP | 报纸剪纸 | 约 15% 铁锈橙 × 灰蓝轻彩 | #00FF00 绿幕转透明 PNG | Codex Skill
 
 ---
 
@@ -14,7 +14,7 @@ Xiaoyi Illustrations 是一个深度定制的 Codex Skill，方法来自Ian Xiao
 
 它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解内容里的认知锚点，再把其中一个关键判断、结构漏洞、利益关系或认知动作，变成一张有记忆点的 16:9 手绘解释图。
 
-默认视觉 IP 是“小逸”：一个黑色蓬松乱发、细框圆眼镜、半垂冷眼、灰白色简化长方形身体、细长四肢、小黑手小黑脚的冷脸分析员。身体顶边下方的上胸口领口位置固定有两个小黑三角领口和一颗很小的橙红观察点，作为稳定识别标志。
+默认视觉 IP 是“小逸”：一个黑色蓬松乱发、细框圆眼镜、半垂冷眼、成熟清秀简化比例的冷脸分析员。上胸口领口位置固定有两个小黑三角领口和一颗很小的橙红观察点，作为稳定识别标志。
 
 一句话：**让 AI 不只是“配一张图”，而是把内容里的一个关键判断、结构漏洞、利益关系或认知动作画出来。**
 
@@ -47,7 +47,7 @@ Xiaoyi Illustrations 是一个深度定制的 Codex Skill，方法来自Ian Xiao
 - 16:9 横版正文配图
 - 一篇文章的 4-8 张 shot list
 - 每张图的主题、核心意思、结构类型、小逸动作和中文标注建议
-- 最终 PNG 图片，保存到 workspace 的 `assets/<article-slug>-illustrations/`
+- 最终 RGBA 透明 PNG 与可复用的 `#00FF00` 绿幕源图，保存到 workspace 的 `assets/<article-slug>-illustrations/`
 
 默认不输出：
 
@@ -62,14 +62,15 @@ Xiaoyi Illustrations 是一个深度定制的 Codex Skill，方法来自Ian Xiao
 
 ## 视觉风格
 
-这个 skill 默认使用“小逸冷脸正文配图”风格：
+这个 skill 默认使用“小逸冷感编辑剪纸”风格：
 
-- 纯白背景，不要纸纹、米色、阴影、渐变
-- 黑色手绘细线为主，轻微抖动，松弛但清楚
-- 黑白灰为主，小逸身体是灰白简化长方形
+- 人物保持成熟、清秀；“儿童感”只来自不平直、不完美的自由手绘线条
+- 直线轻微歪斜，圆形不绝对规整，允许少量断线、复线和越过拐角
+- 人物和主要物件像从旧报纸剪下，保留不规则米白剪口、纸纤维、网点与叠贴边缘
+- 黑灰米白约占 85%，铁锈橙与低饱和灰蓝轻彩约占 15%
 - 身体顶边下方的上胸口领口位置保留两个小黑三角领口和一颗很小的橙红观察点
-- 大量留白，主体只占画面约 40%-60%
-- 少量红色、橙色、蓝色中文手写批注
+- 生图使用统一 `#00FF00` 绿幕，本地抠除后交付透明 PNG
+- 默认不写标题；确需标注时保持极少、极短
 - 一张图只表达一个核心动作、结构、状态或隐喻
 - 小逸必须参与核心判断或操作动作，不能只是装饰
 - 怪诞、聪明、冷淡、轻微毒舌，但不幼稚、不卖萌
@@ -80,10 +81,10 @@ Xiaoyi Illustrations 是一个深度定制的 Codex Skill，方法来自Ian Xiao
 
 小逸角色参考图：
 
-- `assets/xiaoyi-reference/xiaoyi-turnaround.png`：三视图参考，包含正面、侧面、背面和头像近景。
-- `assets/xiaoyi-reference/xiaoyi-modes.png`：模式参考，包含批注模式、质问模式、录音模式、分析模式、辩证模式。
+- `assets/xiaoyi-reference/xiaoyi-turnaround.png`：新版透明三视图，包含正面、侧面、背面和头像近景。
+- `assets/xiaoyi-reference/xiaoyi-modes.png`：新版透明动作库，包含审视、质疑、批注、分析和录音/收集。
 
-示例图片只用于校准线条密度、留白、颜色克制和角色参与方式，不是构图模板。使用时应该从当前文章重新发明隐喻，不要照抄旧案例的物件和构图。
+Skill 内只保留一张已确认的新风格透明样图 `assets/examples/01-content-overload-transparent.png`，用于校准稚拙线条、报纸剪口、15% 轻彩和角色参与方式，不是构图模板。旧白底案例已移出安装资产，避免模型被旧视觉锚点拉回。
 
 ---
 
@@ -120,7 +121,7 @@ Use $xiaoyi-illustrations 先不要生图。
 
 ```text
 Use $xiaoyi-illustrations 把下面这篇文章生成 4 张小逸冷脸正文配图。
-要求：16:9 横版、纯白背景、黑白灰手绘细线、少量红橙蓝中文手写批注。
+要求：16:9 横版、稚拙不平直的黑色手绘线、报纸剪纸白边、约 15% 铁锈橙与灰蓝轻彩，最终交付透明 PNG。
 
 <粘贴文章>
 ```
@@ -153,8 +154,9 @@ Use $xiaoyi-illustrations 帮我编辑这张图，去掉左上角的“流程图
 5. 重新发明一个低科技、怪诞但成立的物理隐喻
 6. 让小逸承担核心判断或操作动作
 7. 每张图单独调用图像模型生成
-8. 按 QA checklist 检查：白底、留白、小逸动作、中文标注、非 PPT 感、非旧案例复刻
-9. 保存最终 PNG，并报告用途和路径
+8. 在统一 `#00FF00` 绿幕上生成，保留人物与物件的米白剪纸边
+9. 本地抠除绿幕，检查透明通道、绿边、剪纸边、小逸动作、非 PPT 感和非旧案例复刻
+10. 同时保存绿幕源图与透明 PNG，并报告用途和路径
 
 ---
 
@@ -172,6 +174,7 @@ Use $xiaoyi-illustrations 帮我编辑这张图，去掉左上角的“流程图
 │       └── xiaoyi-modes.png
 ├── examples/
 │   ├── images/
+│   │   └── 01-content-overload-transparent.png
 │   └── prompts.md
 └── xiaoyi-illustrations/
     ├── SKILL.md
@@ -180,12 +183,15 @@ Use $xiaoyi-illustrations 帮我编辑这张图，去掉左上角的“流程图
     ├── assets/
     │   ├── examples/
     │   └── xiaoyi-reference/
-    └── references/
+    ├── references/
         ├── style-dna.md
         ├── xiaoyi-ip.md
         ├── composition-patterns.md
         ├── prompt-template.md
-        └── qa-checklist.md
+        ├── qa-checklist.md
+        └── transparent-output.md
+    └── scripts/
+        └── remove_chroma_key.py
 ```
 
 真正需要安装到 Codex 的是子目录：
@@ -204,6 +210,8 @@ xiaoyi-illustrations/
 - 每张图只讲一个核心结构，不要把文章做成说明书。
 - 小逸必须承担核心判断或操作动作；如果去掉小逸画面仍然完全成立，说明小逸太装饰了。
 - 参考图只用于校准人物一致性、线条密度、留白和颜色克制，不要复刻构图。
+- 固定绿幕色号是 `#00FF00`，不要为不同图片随意更换色号。
+- 透明化默认使用 `xiaoyi-illustrations/scripts/remove_chroma_key.py`；优先 `--despill`，只有细绿边残留时才加 `--edge-contract 1`。
 - AI 图像模型可能出现错字、幻觉标签、风格漂移或多余标题，生成后需要检查。
 - 如果中文错字严重，优先减少标注词并重生成。
 

@@ -1,4 +1,4 @@
 agent:
   display_name: "小逸配图"
-  short_description: "为中文文章生成冷脸清爽、有小逸 IP 的正文配图资产"
-  default_prompt: "Use $xiaoyi-illustrations to 为这篇中文文章设计并生成几张小逸冷脸正文配图。"
+  short_description: "生成稚拙手绘、报纸剪纸、15% 轻彩的小逸透明正文配图"
+  default_prompt: "Use $xiaoyi-illustrations 为这篇中文文章设计并生成小逸报纸剪纸风透明正文配图。"
