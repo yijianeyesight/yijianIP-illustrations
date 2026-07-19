@@ -3,10 +3,10 @@
 ## 必过项
 
 - 是 16:9 横版。
-- 背景是干净白底。
+- 生图背景是完全均匀的 `#00FF00`；最终交付是 RGBA 透明 PNG。
 - 有小逸。
 - 小逸承担核心判断或操作动作，不只是装饰。
-- 小逸保留关键识别锚点：黑色蓬松乱发、细框圆眼镜、半垂冷眼、灰白色简化长方形身体、细长四肢、小黑手小黑脚。
+- 小逸保留关键识别锚点：黑色蓬松乱发、细框圆眼镜、半垂冷眼、成熟清秀的简化人物比例、上胸口两个小黑三角与其间的橙红观察点。
 - 身体顶边下方、脖子下方的上胸口领口位置有两个小黑三角领口，中间有一颗很小的橙红色观察点。
 - 两个黑三角左右对称，分布在身体中轴线两侧；橙红观察点位于两个三角之间的水平中点。
 - 观察点克制、稳定，不像科技发光、大 logo 或超级英雄胸标。
@@ -15,7 +15,10 @@
 - 简洁清爽，主体不超过画面约 60%。
 - 一张图只讲一个核心判断、结构、状态或隐喻。
 - 中文标注少、短、冷、准、能读。
-- 黑白灰为主，少量克制平涂色块增强识别。
+- 黑灰米白约占 85%，铁锈橙与低饱和灰蓝轻彩约占 15%。
+- 线条像儿童自由手绘：直线轻微歪斜、圆形不绝对规整、允许少量复线和越角，但人物仍成熟好看。
+- 人物与不同主要物件都有窄而不规则的米白剪纸边，并带报纸网点、栏纹、纸纤维和叠贴关系。
+- 透明化后没有绿边，剪纸白边、头发、眼镜、手指和细支架没有被误删。
 - 橙色只用于主路径、注意力路径、转化路径或箭头。
 - 红色只用于毒舌批注、重点、问题、证据质问、提醒、风险或结果。
 - 蓝色只用于补充说明、反馈、上下文、波形、系统状态或工具状态。
@@ -35,7 +38,11 @@
 - 画面像 PPT、课程课件、正式流程图。
 - 元素太多、箭头太多、节点太多。
 - 文字变成大段解释。
-- 背景有纸纹、阴影、渐变、米色、噪点。
+- 绿幕背景不均匀，带纸纹、阴影、渐变、地面或噪点。
+- 只是给物体加纸纹，没有独立剪片的白边与叠贴关系。
+- 线条仍然像尺子或矢量工具画出，过分平直、光滑、完美。
+- 把儿童手绘线误解为儿童人物、Q 版比例或甜美儿童绘本。
+- 抠除后出现绿色描边，或米白剪纸边被吞掉。
 - 真实 UI 截图或科技感界面。
 - 中文错字严重或标注不可读。
 - 画面太死板，没有观察型冷幽默。
@@ -45,7 +52,10 @@
 
 - 太普通：让小逸成为动作主体，加入一个奇怪但成立的分析隐喻。
 - 太复杂：删节点，只保留一个动作和 3-5 个短标注。
-- 太可爱：强调 rational、cold、observant、half-lidded skeptical eyes、not cute、not mascot、not chibi。
+- 太可爱：强调 only the line behavior is childlike; keep Xiaoyi mature, handsome, rational, cold, observant, not mascot, not chibi。
+- 线条太规整：加入 subtly crooked straight edges、imperfect circles、gentle wobble、overshoot、light retracing。
+- 剪纸不明显：要求每个主要物件有 narrow irregular off-white scissor-cut rim、paper fibers、halftone dots、overlapping pasted edges。
+- 绿边：先启用 `--despill`；仍有细边再用 `--edge-contract 1`，不要提高容差吞掉剪纸白边。
 - 太 PPT：去掉标题、边框、整齐网格和过多箭头，改成手绘场景。
 - 太像旧案例：保留核心意思，换掉主物件和小逸动作。
 - 角色漂移：补充小逸识别锚点，强调 messy fluffy black hair、thin round glasses、half-lidded skeptical eyes、gray-white rectangular body、small black hands and feet、two black triangular collar shapes directly below the body top edge、tiny orange-red observation dot exactly between the two triangles.
@@ -55,4 +65,4 @@
 
 高质量图应该让读者先觉得“有点冷、有点准”，然后 1 秒内看懂结构，并感觉这个判断是小逸做出来的。
 
-如果第一眼像教程页、PPT 页、可爱贴纸或商业插画，而不是白纸上的冷脸分析草图，就不合格。
+如果第一眼像教程页、PPT 页、可爱贴纸或商业插画，而不是带稚拙墨线与报纸剪口的冷感编辑拼贴，就不合格。
